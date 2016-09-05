@@ -1,0 +1,20 @@
+{
+  "name": "section2.3",
+  "version": "1.0.0",
+  "description": "A test package.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "engines" : { "node" : ">5.0.0" },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "section2.5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests",
+    "prestart": "echo \"The prestart script\"",
+    "start": "echo $1",
+    "poststart": "echo \"The poststart script\"",
+    "stop": "echo \"The stop script\"",
+    "restart": "echo \"The restart script\"",
+    "custom": "echo \"The custom script\"",
+    "precustom": "echo \"The precustom script\"",
+    "postcustom": "echo \"The postcustom script\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^2.5.3"
+  }
+}

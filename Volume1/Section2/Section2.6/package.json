@@ -1,0 +1,17 @@
+{
+  "name": "packt-math",
+  "version": "1.0.0",
+  "description": "Simple math library.",
+  "main": "math.js",
+  "scripts": {
+    "test": "mocha tests"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "2.5.3"
+  },
+  "dependencies": {
+    "mathjs": "3.3.0"
+  }
+}
