@@ -10,7 +10,7 @@ server.on('request', (req, res) => {
   //raw headers
   //console.log(req.rawHeaders);
   //HTTP version
-  console.log(req.httpVersion);
+  //console.log(req.httpVersion);
   //method
   console.log(req.method);
   //url

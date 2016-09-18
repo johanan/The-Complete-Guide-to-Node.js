@@ -13,6 +13,7 @@ const fs = require('fs');
 process.stdin.pipe(fs.createWriteStream('write.txt'));
 
 //a little network example
+
 const net = require('net');
 
 var socket = new net.Socket();

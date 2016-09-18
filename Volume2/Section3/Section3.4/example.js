@@ -4,11 +4,10 @@ var server = http.createServer();
 
 server.on('request', (req, res) => {
   //let's see what's in here
-  //console.log(res);
+  console.log(res);
   //headers can be created
   res.setHeader('Our-Header', 'anything we want');
-  //res.statusCode = 404;
-  //res.statusCode = 500;
+  res.statusCode = 404;
   res.end();
 });
 
