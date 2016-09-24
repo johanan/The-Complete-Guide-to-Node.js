@@ -31,6 +31,7 @@ app.use(express.static('static'));
 
 //order matters
 app.get('/test.html', (req, res) => {
+  console.log('this is from the get method');
   res.send('test.html');
   res.end();
 });
